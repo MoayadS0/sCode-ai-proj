@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+
+.hero-father{
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+}
+.intro{
+  color: rgb(255, 255, 255);
+  
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+ gap: 7px;
+ padding: 80px 0;
+ 
+}
+.intro p{
+ font-size: 50px; 
+ letter-spacing: 4px;
+ font-weight: 500;
+ background: radial-gradient(circle at 10% 20%, rgb(143, 143, 143) 0%, rgb(104, 103, 103) 90.2%);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+}
+.intro h5{
+  font-size: 12px; 
+  letter-spacing: 2px;
+  background: radial-gradient(circle at 10% 20%, rgb(190, 190, 190) 0%, rgb(161, 161, 161) 90.2%);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+}
+.email{
+  display: flex;
+  flex-direction: row;
+}
+.link{
+  color: rgb(143, 143, 143);
+  font-size: 13px;
+  padding: 10px 20px;
+ border-radius: 5px;
+ background-color: rgb(36, 36, 36);
+ border: none;
+}
+.link:focus {
+    outline: none ;
+    
+
+  }
+.btn2{
+border: none;
+padding: 0 20px;
+color: rgb(177, 177, 177);
+background-color: rgb(53, 53, 53);
+cursor: pointer;
+transition: 0.3s ease;
+}
+.btn2:hover{
+opacity: 0.5;
+}
+
+.chat-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0 13%;
+  max-height: 70vh;
+  overflow-y: scroll;
+  color: rgb(153, 153, 153);
+  margin-top: 45px;
+  gap: 20px;
+  font-size: 15px;
+}
+.chat-container::-webkit-scrollbar{
+  display: none;
+  
+}
+.user-chat{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+.ai-chat{
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+.user{
+  width:35px;
+  border-radius: 50%;
+}
+.ai-pic{
+  color: rgb(112, 112, 112);
+}
+
+.load{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ gap: 10px;  
+ animation: fadeIn 1.5s;
+}
+.load hr{
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+  background: linear-gradient(to right,  rgb(49, 49, 49) 0%, rgb(66, 65, 65) 90.2%);
+  background-size: 800px 50px;
+  height: 20px;
+  animation: load 3s infinite linear;
+}
+@keyframes load{
+  0%{
+    background-position: -800px 0;
+  }
+  100%{
+    background-position: 800px 0;
+  }
+
+}
+
+
+
+
+
+@media only screen and (max-width:1000px){
+  .intro p{
+ font-size: 35px; 
+ letter-spacing: 4px;
+ font-weight: 500;
+ 
+}
+.intro h5{
+  font-size: 8px; 
+  letter-spacing: 2px;
+  background: radial-gradient(circle at 10% 20%, rgb(230, 230, 230) 0%, rgb(161, 161, 161) 90.2%);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+}}
+@media only screen and (max-width:910px){
+  .intro p{
+ font-size: 35px; 
+ letter-spacing: 4px;
+ font-weight: 500;
+ 
+}
+.intro h5{
+  font-size: 8px; 
+  letter-spacing: 2px;
+  background: radial-gradient(circle at 10% 20%, rgb(230, 230, 230) 0%, rgb(161, 161, 161) 90.2%);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+}}
+
+@media only screen and (max-width:820px){
+  .intro p{
+ font-size: 35px; 
+ letter-spacing: 4px;
+ font-weight: 500;
+ 
+}
+.intro h5{
+  font-size: 8px; 
+  letter-spacing: 2px;
+  background: radial-gradient(circle at 10% 20%, rgb(230, 230, 230) 0%, rgb(161, 161, 161) 90.2%);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+}}
+
+@media only screen and (max-width:790px){
+  .intro p{
+ font-size: 30px; 
+ letter-spacing: 4px;
+ font-weight: 500;
+ 
+}
+.intro h5{
+  font-size: 7px; 
+  letter-spacing: 2px;
+  background: radial-gradient(circle at 10% 20%, rgb(230, 230, 230) 0%, rgb(161, 161, 161) 90.2%);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+}
+.link{
+  
+  font-size: 11px;
+}
+.btn2{
+  font-size: 11px;}
+}
+
+
+@media only screen and (max-width:735px){
+  .intro p{
+ font-size: 23px; 
+ 
+ 
+}
+.intro h5{
+  font-size: 5px; 
+  letter-spacing: 2px;
+  background: radial-gradient(circle at 10% 20%, rgb(230, 230, 230) 0%, rgb(161, 161, 161) 90.2%);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+}
+.link{
+  
+  font-size: 9px;
+}
+  
+.btn2{
+font-size: 10px;
+}}
+
+@media only screen and (max-width:636px){
+  .intro p{
+ font-size: 23px; 
+ 
+ 
+}
+.intro h5{
+  font-size: 5px; 
+  letter-spacing: 2px;
+  background: radial-gradient(circle at 10% 20%, rgb(230, 230, 230) 0%, rgb(161, 161, 161) 90.2%);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+}
+.link{
+  
+  font-size: 9px;
+}
+  
+.btn2{
+font-size: 10px;
+}}
+
+
+
+@media only screen and (max-width:613px){
+  .intro p{
+ font-size: 19px; 
+ 
+ 
+}
+.intro h5{
+  font-size: 4px; 
+  letter-spacing: 2px;
+  background: radial-gradient(circle at 10% 20%, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 90.2%);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+}
+.link{
+  
+  font-size: 9px;
+}
+  
+.btn2{
+font-size: 10px;
+}}
+
+
+
+@media only screen and (max-width:563px){
+  .intro p{
+ font-size: 15px; 
+ 
+ 
+}
+.intro h5{
+  font-size: 3px; 
+  
+  letter-spacing: 2px;
+  background: radial-gradient(circle at 10% 20%, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 90.2%);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+}
+.link{
+  
+  font-size: 8px;
+}
+  
+.btn2{
+font-size: 8px;
+}}
+
+
+
+@media only screen and (max-width:471px){
+  .intro p{
+ font-size: 15px; 
+ 
+ 
+}
+.intro h5{
+  font-size: 2px; 
+  
+  letter-spacing: 2px;
+  background: radial-gradient(circle at 10% 20%, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 90.2%);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+}
+.link{
+  
+  font-size: 7px;
+}
+  
+.btn2{
+font-size: 7px;
+}}
+
+@media only screen and (max-width:421px){
+  .intro p{
+ font-size: 13px; 
+ 
+ 
+}
+.intro h5{
+  font-size: 1px; 
+  
+  letter-spacing: 2px;
+  background: radial-gradient(circle at 10% 20%, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 90.2%);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+}
+.link{
+  
+  font-size: 6px;
+}
+  
+.btn2{
+font-size: 6px;
+}}

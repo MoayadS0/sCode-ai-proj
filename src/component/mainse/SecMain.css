@@ -1,0 +1,134 @@
+
+.main{
+  flex: 1;
+  min-height: 100vh;
+  position: relative;
+}
+.header{
+   display: flex;
+   flex-direction: row;
+   justify-content:space-between;
+   align-items: center;
+   padding: 10px 30px;
+   
+}
+
+.header h1{
+  color: white;
+ cursor: pointer;
+ background: radial-gradient(circle at 10% 20%, rgb(143, 143, 143) 0%, rgb(104, 103, 103) 90.2%);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+}
+.media{
+  color: rgb(161, 161, 161);
+  font-size: 25px;
+  
+}
+.media i{
+ margin: 0 10px;
+ cursor: pointer;
+ transition: 0.3s ease;
+}
+.media i:hover{
+color: rgb(175, 175, 175);
+}
+
+.cont{
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width:1000px){
+ 
+.header h1{
+  
+ font-size: 20px;
+}
+.media{
+  color: rgb(161, 161, 161);
+  font-size: 18px;
+  
+}
+}
+
+@media only screen and (max-width:660px){
+  
+.header h1{
+  
+  font-size: 18px;
+ }
+ .media{
+   color: rgb(161, 161, 161);
+   font-size: 15px;
+   
+ }}
+
+
+
+@media only screen and (max-width:500px){
+    
+.header h1{
+  
+  font-size: 16px;
+ }
+ .media{
+ 
+   font-size: 13px;
+   
+ }}
+
+
+
+@media only screen and (max-width:436px){
+     
+.header h1{
+  
+  font-size: 14px;
+ }
+ .media{
+ 
+   font-size: 11px;
+   
+ }
+ .header{
+   padding: 10px 14px;
+   
+}
+}
+
+
+
+@media only screen and (max-width:380px){
+      
+.header h1{
+  
+  font-size: 12px;
+ }
+ .media{
+ 
+   font-size: 9px;
+   
+ }
+ .header{
+   padding: 10px 12px;
+   
+}}
+
+@media only screen and (max-width:320px){
+  .header h1{
+  
+  font-size: 10px;
+ }
+ .media{
+ 
+   font-size: 8px;
+   
+ }
+ .header{
+   padding: 10px 10px;
+   
+}
+
+}

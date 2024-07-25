@@ -1,7 +1,7 @@
 <h2>Scode: AI Platform</h2>
 
-<img src='![Scode](https://github.com/user-attachments/assets/55ed8da2-04c3-40e8-8779-2436037bf206)
-'/>
+<img src="![Scode](https://github.com/user-attachments/assets/55ed8da2-04c3-40e8-8779-2436037bf206)
+"/>
 
 Welcome to Scode, an AI platform that I’ve developed with passion and curiosity by myself! 
 <br/>
